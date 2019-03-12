@@ -245,8 +245,8 @@ body {
     padding: 50px;
     margin: 0;
     font-family: mountains;
-    font-size:120px;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    font-size: 120px;
+    background: -webkit-linear-gradient(#f9d423, #ff4e50);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -319,7 +319,8 @@ body {
     font-weight: 600;
 }
 
-.hero-content .entry-footer a:hover, .hero-content .entry-footer .current {
+.hero-content .entry-footer a:hover,
+.hero-content .entry-footer .current {
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     color: hsl(0, 0%, 0%);
 }
@@ -665,7 +666,7 @@ body {
     height: 100%;
     padding: 30px;
     text-align: center;
-    background: rgba(0,0,0,.75);
+    background: rgba(0, 0, 0, .75);
     text-decoration: none;
     transition: all .5s;
     opacity: 0;
@@ -703,7 +704,7 @@ body {
     width: 100%;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .next-event-slider-wrap .swiper-button-next {
         bottom: -42px;
         width: 84px;
@@ -813,8 +814,10 @@ body {
 ------------------------------------------------------------*/
 .site-footer {
     position: relative;
+    padding-top: 0px;
+    margin-top: -200px;
     padding: 40px 0 30px;
-    background: url(images/footer-cover.jpg) no-repeat;
+    background: url(images/gal5.jpeg) no-repeat;
     background-size: cover;
 }
 
@@ -932,8 +935,7 @@ body {
 /*------------------------------------------------------------
 # site-header
 ------------------------------------------------------------*/
-.about-us .site-header {
-}
+.about-us .site-header {}
 
 .about-us .site-header figure {
     margin: 0;
@@ -1181,7 +1183,8 @@ body {
     height: 100%;
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
+
     .testimonials-container,
     .testimonial-featured-image {
         width: 50%;
@@ -1196,7 +1199,8 @@ body {
 }
 
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
+
     .testimonials-container,
     .testimonial-featured-image {
         width: 50%;
@@ -1208,7 +1212,8 @@ body {
 }
 
 
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1500px) {
+
     .testimonials-container,
     .testimonial-featured-image {
         width: 50%;
@@ -1276,13 +1281,13 @@ body {
     line-height: 1.8;
 }
 
-@media screen and (min-width: 576px){
+@media screen and (min-width: 576px) {
     .tabs .tab-nav {
         padding: 20px;
     }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
     .tabs .tab-content {
         padding: 48px;
     }
@@ -1325,7 +1330,7 @@ body {
     color: #040608;
 }
 
-.single-event-details-row p.sold-out span{
+.single-event-details-row p.sold-out span {
     color: #ff0000;
 }
 
@@ -1946,11 +1951,3 @@ body {
 .icon-box-3 .entry-header::before {
     content: "03.";
 }
-
-
-
-
-
-
-
-
