@@ -246,7 +246,7 @@ body {
     margin: 0;
     font-family: mountains;
     font-size: 120px;
-    background: -webkit-linear-gradient(#f9d423, #ff4e50);
+    background: -webkit-linear-gradient(#007adf, #00ecbc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
